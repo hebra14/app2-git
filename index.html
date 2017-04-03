@@ -1,0 +1,402 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Segunda aplicación</title>
+
+		<!--grupo CSS-->
+        <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+		<link rel="stylesheet" href="css/tema-app1.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+		<!--grupo JavaScript-->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/acciones.js"></script>
+		<script src="phonegap.js"></script>
+		<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+        </script>
+	</head>
+
+	<body onLoad="MM_preloadImages('imagenes/celular2.png','imagenes/celular4.png','imagenes/antiguo2.png','imagenes/moderno2.png','imagenes/baja2.png','imagenes/media2.png','imagenes/telefonos.png','imagenes/alta2.png')">
+
+		<div data-role="page" id="Principal" data-theme="b">
+			<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 		data-back-btn-theme="b">
+				<h1>Telefonia celular en Mexico</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+            <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/celular4.jpg" alt="celular4" title="celular4" id="wows1_0"/></li>
+		<li><img src="data1/images/celular4_0.png" alt="celular4" title="celular4" id="wows1_1"/></li>
+		<li><img src="data1/images/celulare.png" alt="celulare" title="celulare" id="wows1_2"/></li>
+		<li><img src="data1/images/futuro2.jpg" alt="futuro2" title="futuro2" id="wows1_3"/></li>
+		<li><img src="data1/images/futuro3.png" alt="futuro3" title="futuro3" id="wows1_4"/></li>
+		<li><img src="data1/images/moderno1.png" alt="moderno1" title="moderno1" id="wows1_5"/></li>
+		<li><img src="data1/images/moderno2.png" alt="moderno2" title="moderno2" id="wows1_6"/></li>
+		<li><img src="data1/images/telcel.png" alt="Telcel" title="Telcel" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/telefon.png" alt="wowslider.com" title="telefon" id="wows1_8"/></a></li>
+		<li><img src="data1/images/telefonos.png" alt="telefonos" title="telefonos" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="celular4"><span><img src="data1/tooltips/celular4.jpg" alt="celular4"/>1</span></a>
+		<a href="#" title="celular4"><span><img src="data1/tooltips/celular4_0.png" alt="celular4"/>2</span></a>
+		<a href="#" title="celulare"><span><img src="data1/tooltips/celulare.png" alt="celulare"/>3</span></a>
+		<a href="#" title="futuro2"><span><img src="data1/tooltips/futuro2.jpg" alt="futuro2"/>4</span></a>
+		<a href="#" title="futuro3"><span><img src="data1/tooltips/futuro3.png" alt="futuro3"/>5</span></a>
+		<a href="#" title="moderno1"><span><img src="data1/tooltips/moderno1.png" alt="moderno1"/>6</span></a>
+		<a href="#" title="moderno2"><span><img src="data1/tooltips/moderno2.png" alt="moderno2"/>7</span></a>
+		<a href="#" title="Telcel"><span><img src="data1/tooltips/telcel.png" alt="Telcel"/>8</span></a>
+		<a href="#" title="telefon"><span><img src="data1/tooltips/telefon.png" alt="telefon"/>9</span></a>
+		<a href="#" title="telefonos"><span><img src="data1/tooltips/telefonos.png" alt="telefonos"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+				<div data-role="collapsible" data-content-theme="false">
+					<h1>Telefono Celular</h1>
+					<div>
+					<h2>Este es un telefono celular </h2>
+					<br>
+				</div>
+				<div>
+				  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image152','','imagenes/telefonos.png',1)"><img src="imagenes/telefon.png" width="100%" height="100%" id="Image152"></a> </div>
+			</div>
+		</div>
+		<div>
+			<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>Definición</h2>
+						<p>Se muestra imagenes del celular</p>
+					</a>
+				</li>
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>Historia de la telefonía celular</h2>
+						<p>Se muestra teléfonos celulares de antes y modernos</p>
+					</a>
+				</li>
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>Clasificación</h2>
+						<p>Muestra los Tipos de Gamas</p>
+					</a>
+				</li>
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>Compañias en México</h2>
+						<p>Muestra las compañias mas usadas</p>
+					</a>
+				</li>
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>Teléfonos Celulares del Futuro</h2>
+						<p>Muestra algunos celulares del futuro</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+        <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+         	<div>
+            <img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            <div>
+            	<h4>Aplicacion Dos</h4>
+                <h4>Braulio Hernández Ramos</h4>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+        	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+            	<h1>Definicion</h1>
+        	</div>
+            <div data-role="content" align="center">
+            <div data-role="collapsible" data-content-theme="false">
+             <h1>Teléfono Celular Uno </h1>
+           <div>
+            	<div>
+                	<h2>Este es un teléfono celular</h2>
+                    <br>
+                </div>
+
+  <p class="estilo1"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sustitucion1','','imagenes/celular2.png',1)"><img src="imagenes/celular1.png" width="100%" height="100%" id="sustitucion1"></a></p>
+
+           </div>
+                
+            </div>
+            </div>
+            <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Teléfono Celular dos</h1>
+           <div>
+            <h2>Este es un teléfono celular </h2>
+           <br>
+           </div>
+           <div onLoad="MM_preloadImages('imagenes/celular3.jpg')">
+  <p class="estilo2"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/celular4.png',1)"><img src="imagenes/celular3.png" width="100%" height="100%" id="Image6"></a></p>
+
+           </div>
+         </div>
+      </div>
+      <div>
+        <p align="justify"> 
+          Aparato telefónico de pequeño tamaño, portátil, sin hilos ni cables externos, para poder hablar desde cualquier lugar, siempre que sea dentro del área de cobertura del servicio que lo facilita.
+        </p>
+      </div>
+      
+            <div data-role="footer" data-theme="b" data-position="fixed">
+            	<h4>Aplicacion Dos, BHR</h4>
+            </div>
+    </div>
+        
+        
+	<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+        	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+            	<h1>Historia de la telefonía celular</h1>
+            </div>
+            <div data-role="content" align="center">
+            <div data-role="collapsible" data-content-theme="false">
+             <h1>Teléfono Celular de antes </h1>
+           <div>
+            	
+  <p class="estilo1"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','imagenes/antiguo2.png',1)"><img src="imagenes/antiguo1.png" width="100%" height="100%" id="Image45"></a></p>
+  
+
+           </div>
+           <div>
+                	<h2>Antiguo</h2>
+                	<p> estos celulares fueron muy infravalorados no sólo por los mismos expertos de la materia sino también la obligada actualización de las tendencias que los orilló al olvido de la tecnología </p>
+                    <br>
+              </div>
+                
+            </div>
+            </div>
+            <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Teléfono Celular Moderno </h1>
+
+           <div>
+  <p class="estilo2"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/moderno2.png',1)"><img src="imagenes/moderno1.png" width="100%" height="100%" id="Image7"></a></p>
+
+           </div>
+                      <div>
+                	<h2>Moderno</h2>
+                	<p>El 2015 quedó marcado por el nuevo celular de Apple el iPhone 6 y su versión 6 Plus que acapararon toda la atención al ser uno de los mejores equipos en toda la historia de los celulares.<br>
+                </p></div>
+           
+         </div>
+      </div>
+      <div>
+        <p align="justify"> 
+El primer antecedente técnico de la telefonía móvil fueron los servicios de comunicación públicos de radiotelefonía establecidas en algunas ciudades estadounidenses durante los años 1940. Usaba un único transmisor y ofrecía seis canales de transmisión, la popularidad del servicio hizo que rápidamente quedara bloqueado, pero en 1947 AT&T dio con la solución, en lugar de utilizar un único transmisor, creó una red de transmisores de baja potencia, cada uno para un área concreta o "célula" (de ahí derivó el término teléfono celular que en muchos países es la forma de referirse a la telefonía móvil).
+
+        </p>
+      </div>
+      
+            <div data-role="footer" data-theme="b" data-position="fixed">
+            	<h4>Aplicacion Dos, BHR</h4>
+            </div>
+    </div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> CLASIFICACIÓN: </h1>
+     </div>  
+     <div align="center">
+       <h2> Existen 3 tipos de gamas: </h2>
+     </div>
+     <div data-role="content" align="center">
+        <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Gama Baja </h1>
+           <div>
+            <p>En esta categoría distribuiremos los celulares inteligentes con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas. Sus pantallas son de escasas dimensiones y resolución, poca memoria RAM y mínima capacidad de almacenamiento interno, cámaras VGA (no llegan al Megapíxel), menores herramientas, acceso a redes y aplicaciones, entre otros aspectos. Se diferencian de los teléfonos básicos (no inteligentes), por el hecho de permitir funcionalidades que van más allá de llamar y recibir llamadas.</p>
+           <br>
+           </div>
+           <div>
+  <p class="estilo5"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/baja2.png',1)"><img src="imagenes/baja1.png" width="100%" height="100%" id="Image11"></a></p>
+  <p align="center" class="estilo5">&nbsp;</p>
+           </div>
+         </div>
+       </div>
+         <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Gama Media </h1>
+           <div>
+            <p>Los smartphones de media gama se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo; los procesadores no tienen la potencia de los que encontramos en gamas superiores, y las cámaras y fotográficas generalmente cuentan con menos cantidad de megapíxeles.  </p>
+           <br>
+           </div>
+           <div>
+  <p class="estilo6"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image134','','imagenes/media2.png',1)"><img src="imagenes/media1.png" width="100%" height="100%" id="Image134"></a></p>
+  <p align="center" class="estilo6">&nbsp;</p>
+           </div>
+         </div>
+         </div>
+          <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Gama Alta </h1>
+           <div> 
+             <p>En este nivel encajan los smartphones que estén dotados con casi todos los elementos más evolucionados de la telefonía móvil que citamos anteriormente, pero posiblemente por el sistema operativo u otra causa no cumple de manera completa con cada uno de esos requisitos. Por ejemplo, el gigantesco Samsung Galaxy Mega 6.3 cuenta con características notables, pero llegó con procesador de doble núcleo y memoria RAM de 1.5GB, cuando en el mercado existen teléfonos celulares con cuatro núcleos y 2GB de RAM. De haber tenido ambos componentes, el Galaxy Mega 6.3 estaría en el estrato superior<br>
+             </p>
+           </div>
+           <div>
+  
+  <p class="estilo7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image154','','imagenes/alta2.png',1)"><img src="imagenes/alta1.png" width="100%" height="100%" id="Image154"></a></p>
+  <p align="center" class="estilo7">&nbsp;</p>
+           </div>
+         </div>
+         </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> Aplicacion Dos, BHR</h4>
+      </div>
+  </div>    
+    </div> 
+        
+	<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+   	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+            	<h1>Compañias en México</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> AtyT
+           </h1>
+           <div>
+            <img src="imagenes/at&t.png" width="100%" height="100%"><br>
+            <address>
+            <a href="https://www.att.com.mx/" target="_self" >visita atyt </a>
+            </address>
+           </div>
+
+         </div>
+      </div>
+         <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Unefon </h1>
+           <div>
+             <img src="imagenes/Unefon.png" width="100%" height="100%"> <br>
+             <address>
+           <a href="https://www.unefon.com.mx/" target="_self">visita Unefon </a>
+             </address>
+           </div>
+         </div>
+         </div>
+          <div data-role="main" class="ui-content">
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Movistar</h1>
+           <div>
+             <img src="imagenes/Movistar.png" width="100%" height="100%"> <br>
+             <address>
+           <a href="http://www.movistar.com.mx/" target="_self" >visita  Movistar </a>
+             </address>
+           </div>
+
+         </div>
+         </div>
+          <div data-role="main" class="ui-content">
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Telcel </h1>
+           <div><img src="imagenes/Telcel.png" width="100%" height="100%"><br>
+           <address>
+            <a href="http://www.telcel.com/" target="_self" >visita Telcel</a>
+           </address>
+           </div>
+
+         </div>
+       </div>
+       
+            <div data-role="footer" data-theme="b" data-position="fixed">
+            	<h4>Aplicacion Dos, BHR</h4>
+                
+            </div>
+      </div>
+    </div>
+    
+        
+        <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Teléfonos Celulares del Futuro</h1>
+     </div>  
+     <div data-role="content" align="center">
+        <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Teléfono Celular 1</h1>
+           <div>
+            <p>El 2045 parece un número muy lejano. Suena casi a ciencia ficción, pero lo cierto es que son 30 años lo que nos separan de esta fecha y muchas previsiones –económicas, medioambientales incluso políticas– se hacen con tres décadas de antelación. </p>
+           <br>
+           
+           </div>
+           <div>
+           <img src="imagenes/futuro1.jpg" width="100%" height="100%"> </div>
+         </div>
+       </div>
+         <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1>Teléfono Celular 2</h1>
+           <div>
+            <p>Pantallas flexibles, transparentes o de papel, teléfonos armables y sistemas que permitan comunicarnos con los demás sin usar las redes telefónicas son cosas que convergerán en un futuro que cada vez se ve menos lejano.</p>
+           <br>
+           </div>
+           <div>
+           <img src="imagenes/futuro2.jpg" width="100%" height="100%"> </div>
+         </div>
+         </div>
+          <div data-role="main" class="ui-content">
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Teléfono Celular 3</h1>
+           <div>
+            <p>Los móviles en <strong>2020</strong> buscarán su sitio bajo la piel y se controlarán con la voz y la mirada.
+           <br>
+           </p>
+           </div>
+           <div>
+            <img src="imagenes/futuro3.png" width="100%" height="100%"> </div>
+         </div>
+         </div>
+          <div data-role="main" class="ui-content">
+          <div data-role="collapsible" data-content-theme="false">
+             <h1>Teléfono Celular 4</h1>
+           <div>
+            <p>Google dice que el teléfono está diseñado para ser usado por "6 mil millones de personas" Google pretende vender el kit inicial en US$50 e incluirá un marco, pantalla, batería, una unidad central de procesamiento de bajo costo y WiFi.</p>
+           <br>
+           </div>
+           <div>
+            <img src="imagenes/futuro4.jpg" width="100%" height="100%"> </div>
+         </div>
+         </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4> Aplicacion Dos, BHR</h4>
+      </div>
+       </div>    
+    </div>
+        
+</body>
+</html>
